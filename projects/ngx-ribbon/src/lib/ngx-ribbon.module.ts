@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
-import { NgxRibbonComponent } from './ngx-ribbon.component';
 
-
+import { NgxRibbonComponent } from 'projects/ngx-ribbon/src/lib/ngx-ribbon.component';
 
 @NgModule({
   declarations: [NgxRibbonComponent],
-  imports: [
-  ],
+  imports: [],
   exports: [NgxRibbonComponent]
 })
-export class NgxRibbonModule { }
+export class NgxRibbonModule {}
