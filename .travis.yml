@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - 'lts/*'
+  - 'stable'
 
 before_install:
   - export CHROME_BIN=chromium-browser
