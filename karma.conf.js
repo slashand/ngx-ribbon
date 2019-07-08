@@ -4,7 +4,6 @@
 module.exports = function(config) {
   config.set({
     basePath: '',
-    browsers: ['Chrome', 'ChromeHeadless', 'ChromeHeadlessNoSandbox'],
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
     plugins: [
       require('karma-jasmine'),
@@ -20,12 +19,6 @@ module.exports = function(config) {
       dir: require('path').join(__dirname, './coverage/demo'),
       reports: ['html', 'lcovonly', 'text-summary'],
       fixWebpackSourcePaths: true
-    },
-    customLaunchers: {
-      ChromeHeadlessNoSandbox: {
-        base: 'ChromeHeadless',
-        flags: ['--no-sandbox']
-      }
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
