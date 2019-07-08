@@ -1,8 +1,17 @@
 {
-  "name": "ngx-ribbon",
-  "version": "0.0.1",
+  "name": "@slashand/ngx-ribbon",
+  "version": "0.1.0",
   "peerDependencies": {
-    "@angular/common": "^8.1.0",
-    "@angular/core": "^8.1.0"
+    "@angular/animations": "~8.1.0",
+    "@angular/common": "~8.1.0",
+    "@angular/compiler": "~8.1.0",
+    "@angular/core": "~8.1.0",
+    "@angular/forms": "~8.1.0",
+    "@angular/platform-browser": "~8.1.0",
+    "@angular/platform-browser-dynamic": "~8.1.0",
+    "@angular/router": "~8.1.0",
+    "rxjs": "~6.4.0",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.9.1"
   }
 }
