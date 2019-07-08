@@ -1,7 +1,15 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
-  "dest": "../../dist/ngx-ribbon",
+  "dest": "../../dist/@slashand/ngx-ribbon",
   "lib": {
-    "entryFile": "src/public-api.ts"
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "projects/ngx-ribbon/src/lib/group/group.config": "NgxRibbonGroupConfig",
+      "projects/ngx-ribbon/src/lib/menu-panel/menu-panel.service": "NgxRibbonMenuPanelService",
+      "projects/ngx-ribbon/src/lib/ngx-ribbon.component": "NgxRibbonComponent",
+      "projects/ngx-ribbon/src/lib/ngx-ribbon.module": "NgxRibbonModule",
+      "projects/ngx-ribbon/src/lib/ngx-ribbon.service": "NgxRibbonService"
+    },
+    "cssUrl": "inline"
   }
 }
