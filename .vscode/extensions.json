@@ -1,0 +1,14 @@
+{
+  "recommendations": [
+    "Angular.ng-template",
+    "DavidAnson.vscode-markdownlint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "eg2.tslint",
+    "mrmlnc.vscode-scss",
+    "mike-co.import-sorter",
+  ],
+  // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
+  "unwantedRecommendations": ["amatiasq.sort-imports"]
+}
