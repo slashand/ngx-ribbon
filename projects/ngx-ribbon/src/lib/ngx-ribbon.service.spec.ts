@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NgxRibbonService } from './ngx-ribbon.service';
+import { NgxRibbonService } from 'projects/ngx-ribbon/src/lib/ngx-ribbon.service';
 
 describe('NgxRibbonService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));

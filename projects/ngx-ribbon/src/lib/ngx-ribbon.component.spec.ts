@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxRibbonComponent } from './ngx-ribbon.component';
+import { NgxRibbonComponent } from 'projects/ngx-ribbon/src/lib/ngx-ribbon.component';
 
 describe('NgxRibbonComponent', () => {
   let component: NgxRibbonComponent;
@@ -8,9 +8,8 @@ describe('NgxRibbonComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NgxRibbonComponent ]
-    })
-    .compileComponents();
+      declarations: [NgxRibbonComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
