@@ -24,4 +24,4 @@ cache: npm
 
 script:
   - npm run lint
-  - npm run test -- --watch-false --no-progress --browsers=ChromeHeadlessNoSandbox
+  - npm run test -- --watch=false --no-progress --browsers=ChromeHeadlessNoSandbox
