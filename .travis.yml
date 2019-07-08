@@ -1,6 +1,8 @@
+dist: trusty
+
 language: node_js
 node_js:
-  - 'stable'
+  - '12'
 
 branches:
   only:
@@ -13,15 +15,16 @@ addons:
     packages:
       - google-chrome-stable
 
+cache: npm
+
 cache:
   directories:
     - ./node_modules
 
-install:
+before_script:
   - npm install
 
-cache: npm
 
 script:
   - npm run lint
-  - npm run test -- --watch-false --no-progress --browsers=ChromeHeadlessNoSandbox
+  - npm run test
