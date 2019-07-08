@@ -2,8 +2,6 @@
 
 A themable and lightweight Microsoft Office-style ribbon for Angular
 
-[![Build Status](https://travis-ci.org/slashand/ngx-ribbon.svg?branch=master)](https://travis-ci.org/slashand/ngx-ribbon)
-
 # COMING SOON
 
 `ngx-ribbon` is a feature-rich, customizable, themable, lightweight and cross-platform Outlook style ribbon for Angular. It has almost all the features you would expect from Microsoft Office ribbon, but in a light package with _no external dependencies_, though you can use it with any installable package.
