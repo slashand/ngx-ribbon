@@ -7,14 +7,21 @@ branches:
     - master
 
 addons:
-  chrome: stable
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+
+cache:
+  directories:
+    - ./node_modules
 
 install:
-  - yarn
+  - npm install
 
-cache: yarn
+cache: npm
 
 script:
   - npm run lint
-  - npm run test
-  - npm run package
+  - npm run test -- --watch-false --no-progress --browsers=ChromeHeadlessNoSandbox
