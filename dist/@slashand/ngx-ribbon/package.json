@@ -1,0 +1,21 @@
+{
+  "name": "ngx-ribbon",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.1.0",
+    "@angular/core": "^8.1.0"
+  },
+  "main": "bundles/ngx-ribbon.umd.js",
+  "module": "fesm5/ngx-ribbon.js",
+  "es2015": "fesm2015/ngx-ribbon.js",
+  "esm5": "esm5/ngx-ribbon.js",
+  "esm2015": "esm2015/ngx-ribbon.js",
+  "fesm5": "fesm5/ngx-ribbon.js",
+  "fesm2015": "fesm2015/ngx-ribbon.js",
+  "typings": "ngx-ribbon.d.ts",
+  "metadata": "ngx-ribbon.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
