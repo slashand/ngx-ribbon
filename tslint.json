@@ -49,7 +49,6 @@
     "no-eval": true,
     "no-misused-new": true,
     "no-inferrable-types": [true, "ignore-params"],
-    "no-input-rename": true,
     "no-implicit-dependencies": false,
     "no-non-null-assertion": true,
     "no-output-on-prefix": true,
@@ -78,7 +77,6 @@
     "prefer-const": true,
     "quotemark": [true, "single"],
     "radix": true,
-    "semicolon": [true, "always"],
     "trailing-comma": [
       false,
       {
