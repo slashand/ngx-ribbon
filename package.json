@@ -5,8 +5,9 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "package": "rimraf ./dist/* && ng build ngx-ribbon",
+    "build:lib": "rimraf ./dist/* && ng build ngx-ribbon",
     "test": "ng test",
+    "test:lib": "ng test ngx-ribbon --code-coverage --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
