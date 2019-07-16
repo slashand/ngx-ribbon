@@ -2,7 +2,7 @@
 
 A themable and lightweight Microsoft Office-style ribbon for Angular
 
-[![Build Status](https://travis-ci.org/slashand/ngx-ribbon.svg?branch=master)](https://travis-ci.org/slashand/ngx-ribbon)
+[![Build Status](https://dev.azure.com/thomascayne/ngx-ribbon/_apis/build/status/ngx-ribbon?branchName=master)](https://dev.azure.com/thomascayne/ngx-ribbon/_build/latest?definitionId=2&branchName=master)
 
 # COMING SOON
 
